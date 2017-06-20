@@ -1,0 +1,7 @@
+tasks:
+  - name: test
+    messages:
+      - pending: Test in progress.
+      - success: Test succeeded.
+      - failure: Test failed.
+      - error: Test error.
