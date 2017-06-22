@@ -5,3 +5,10 @@ tasks:
       - success: Test succeeded.
       - failure: Test failed.
       - error: Test error.
+      tasks:
+        - name: test2
+        messages:
+          - pending: Test22 in progress.
+          - success: Test 2 succeeded.
+          - failure: Test 2 failed.
+          - error: Test 2 error.
